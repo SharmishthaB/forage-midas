@@ -2,7 +2,7 @@ package com.jpmc.midascore.entity;
 
 import jakarta.persistence.*;
 
-@Entity
+@Entity //represents data that will be stored in the database.
 public class UserRecord {
 
     @Id

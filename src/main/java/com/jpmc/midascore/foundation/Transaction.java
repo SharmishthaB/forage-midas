@@ -3,7 +3,7 @@ package com.jpmc.midascore.foundation;
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 
 @JsonIgnoreProperties(ignoreUnknown = true)
-public class Transaction {
+public class Transaction {          //POJO: only job is to hold data
     private long senderId;
     private long recipientId;
     private float amount;

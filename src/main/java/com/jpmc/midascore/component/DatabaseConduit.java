@@ -4,7 +4,7 @@ import com.jpmc.midascore.entity.UserRecord;
 import com.jpmc.midascore.repository.UserRepository;
 import org.springframework.stereotype.Component;
 
-@Component
+@Component //coordinates database-related operations.
 public class DatabaseConduit {
     private final UserRepository userRepository;
 
